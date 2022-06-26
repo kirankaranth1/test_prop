@@ -1,0 +1,24 @@
+name: test_prop
+description: ''
+version: 0.0.1
+author: user1@somecompany.com
+language: python
+buildSystem: wheel
+pipelines:
+  pipelines/branch:
+    name: branch
+    description: ''
+    author: user1@somecompany.com
+    mode: batch
+    language: python
+    createdAt: '2022-06-26 11:29:30'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+libraries: []
+subgraphs: {}
+dependencies: '[]'
