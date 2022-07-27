@@ -16,6 +16,17 @@ pipelines:
       inputs: []
       outputs: []
     dependencies: {}
+  pipelines/p2kiran:
+    name: p2kiran
+    description: ''
+    author: kiran+10@prophecy.io
+    mode: batch
+    language: python
+    createdAt: '2022-07-27 08:10:15'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
 datasets: {}
 templates: {}
 jobs: {}
