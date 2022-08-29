@@ -1,0 +1,24 @@
+name: ForkAyushTest
+description: ''
+version: 0.0.1
+author: ayush+11@simpledatalabs.com
+language: scala
+buildSystem: maven
+pipelines:
+  pipelines/P1:
+    name: P1
+    description: ''
+    author: ayush+11@simpledatalabs.com
+    mode: batch
+    language: scala
+    createdAt: '2022-08-29 07:26:26'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+libraries: []
+subgraphs: {}
+dependencies: '[]'
