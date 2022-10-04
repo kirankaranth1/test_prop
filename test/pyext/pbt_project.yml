@@ -1,0 +1,26 @@
+name: ext
+description: ''
+version: 0.0.1
+author: kiran+trace4@prophecy.io
+language: python
+buildSystem: wheel
+pipelines:
+  pipelines/test:
+    name: test
+    description: ''
+    author: kiran+trace4@prophecy.io
+    mode: batch
+    language: python
+    createdAt: '2022-10-04 08:33:37'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+libraries: []
+subgraphs: {}
+sqlModels: {}
+sqlPipeline: null
+dependencies: '[]'
